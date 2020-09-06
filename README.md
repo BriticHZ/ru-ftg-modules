@@ -1,0 +1,1 @@
+# ru-ftg-modules
