@@ -43,7 +43,7 @@ class AndrezatorMod(loader.Module):
 		else:
 			txt = utils.get_args_raw(message)
 		await message.edit("<b>Думаю...</b>")
-		pic = requests.get("https://www.meme-arsenal.com/memes/891fe9ed855cd24abd822673417e4471.jpg")
+		pic = requests.get("https://www.meme-arsenal.com/memes/101fdc511d27146ea6241689ca7730cf.jpg")
 		pic.raw.decode_content = True
 		img = Image.open(io.BytesIO(pic.content)).convert("RGB")
  
