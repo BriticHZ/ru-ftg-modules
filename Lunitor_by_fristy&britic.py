@@ -43,7 +43,7 @@ class LunitorMod(loader.Module):
 		else:
 			txt = utils.get_args_raw(message)
 		await message.edit("<b>Лунитор крутой</b>")
-		pic = requests.get("https://meme-arsenal.com/create/meme/3231676")
+		pic = requests.get("https://www.meme-arsenal.com/memes/c22cb0b4da97548b89afd366e36691bf.jpg")
 		pic.raw.decode_content = True
 		img = Image.open(io.BytesIO(pic.content)).convert("RGB")
  
