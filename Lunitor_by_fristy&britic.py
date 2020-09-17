@@ -43,7 +43,7 @@ class LunitorMod(loader.Module):
 		else:
 			txt = utils.get_args_raw(message)
 		await message.edit("<b>Лунитор крутой</b>")
-		pic = requests.get("https://lh3.googleusercontent.com/j2OhiOGX1wgKnjUtDKoTBVKPvmBj6Crr66RI7yDzkFd8kGN1dmrk0jIqvlJKBdiIgo3N-A=s170")
+		pic = requests.get("https://www.dropbox.com/h?preview=IMG_20200917_170714_331.jpg")
 		pic.raw.decode_content = True
 		img = Image.open(io.BytesIO(pic.content)).convert("RGB")
  
