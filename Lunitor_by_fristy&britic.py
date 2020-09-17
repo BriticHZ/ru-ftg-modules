@@ -26,8 +26,8 @@ class LunitorMod(loader.Module):
 		self._client = client
 		self.me = await client.get_me()
 		
-	async def jcmd(self, message):
-		""".luni <реплай на сообщение/свой текст>\n@offsd подпишись-пожалеешь"""
+	async def luncmd(self, message):
+		""".lun <реплай на сообщение/свой текст>\n@offsd подпишись-пожалеешь"""
 		
 		ufr = requests.get("https://github.com/Sad0ff/modules-ftg/raw/master/open-sans.ttf")
 		f = ufr.content
