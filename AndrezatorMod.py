@@ -49,7 +49,7 @@ class AndrezatorMod(loader.Module):
  
 		W, H = img.size
 		#txt = txt.replace("\n", "𓃐")
-		text = "\n".join(wrap(txt, 19))
+		text = "\n".join(wrap(txt, 25))
 		t = text + "\n"
 		#t = t.replace("𓃐","\n")
 		draw = ImageDraw.Draw(img)
