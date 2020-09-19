@@ -57,7 +57,7 @@ class AndrezatorMod(loader.Module):
 		w, h = draw.multiline_textsize(t, font=font)
 		imtext = Image.new("RGBA", (w+10, h+10), (0, 0,0,0))
 		draw = ImageDraw.Draw(imtext)
-		draw.multiline_text((10, 10),t,(0,0,0),font=font, align='left')
+		draw.multiline_text((20, 20),t,(0,0,0),font=font, align='left')
 		imtext.thumbnail((339, 181))
 		w, h = 339, 181
 		img.paste(imtext, (10,10), imtext)
